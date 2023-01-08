@@ -1,0 +1,49 @@
+{
+    "name": "@hedger/components",
+    "private": true,
+    "version": "0.0.0",
+    "type": "module",
+    "files": [
+        "dist"
+    ],
+    "main": "./dist/components.umd.cjs",
+    "module": "./dist/components.js",
+    "exports": {
+        ".": {
+            "import": "./dist/components.js",
+            "require": "./dist/components.umd.cjs"
+        }
+    },
+    "scripts": {
+        "dev": "histoire dev",
+        "build": "vue-tsc && vite build",
+        "story:build": "histoire build",
+        "preview": "histoire preview"
+    },
+    "dependencies": {
+        "vue": "^3.2.45"
+    },
+    "devDependencies": {
+        "@hedger/prettier-config": "^1.2.0",
+        "@histoire/plugin-vue": "^0.12.4",
+        "@tailwindcss/forms": "^0.5.3",
+        "@types/node": "^18.11.18",
+        "@typescript-eslint/eslint-plugin": "^5.48.0",
+        "@typescript-eslint/parser": "^5.48.0",
+        "@vitejs/plugin-vue": "^4.0.0",
+        "@vue/eslint-config-typescript": "^11.0.2",
+        "autoprefixer": "^10.4.13",
+        "eslint": "^8.31.0",
+        "eslint-config-prettier": "^8.6.0",
+        "eslint-plugin-prettier": "^4.2.1",
+        "eslint-plugin-vue": "^9.8.0",
+        "histoire": "^0.12.4",
+        "postcss": "^8.4.21",
+        "prettier": "^2.8.2",
+        "tailwindcss": "^3.2.4",
+        "typescript": "^4.9.3",
+        "vite": "^4.0.0",
+        "vue-eslint-parser": "^9.1.0",
+        "vue-tsc": "^1.0.11"
+    }
+}
