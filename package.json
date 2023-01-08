@@ -1,7 +1,6 @@
 {
     "name": "@hedger/components",
     "private": true,
-    "version": "0.0.0",
     "type": "module",
     "files": [
         "dist"
@@ -21,6 +20,7 @@
         "preview": "histoire preview"
     },
     "dependencies": {
+        "classname-variants": "^1.3.2",
         "vue": "^3.2.45"
     },
     "devDependencies": {
