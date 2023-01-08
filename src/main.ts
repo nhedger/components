@@ -1,3 +1,3 @@
-import TextInput from './components/Inputs/TextInput.vue';
+import BaseButton from './components/Buttons/BaseButton.vue';
 
-export { TextInput };
+export { BaseButton };
